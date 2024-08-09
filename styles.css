@@ -28,7 +28,7 @@ header h1 {
 }
 .paypal-button-container {
     position: absolute;
-    bottom: 60px; /* Adjust position as needed */
+    bottom: 20px; /* Adjust position as needed */
     right: 40px;  /* Align with WhatsApp button */
 }
 .contact-us {
