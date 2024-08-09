@@ -30,7 +30,7 @@ header h1 {
 /* Adjusting the main PayPal button in the header */
 .paypal-button-container {
     position: absolute;
-    bottom: 10px; /* Adjust to position the PayPal button above the WhatsApp link */
+    bottom: 20px; /* Adjust to position the PayPal button above the WhatsApp link */
     right: 40px;
     display: flex;
     align-items: center;
@@ -38,8 +38,8 @@ header h1 {
 }
 
 .paypal-button-container input[type="image"] {
-    width: 100px; /* Exact width to match WhatsApp button size */
-    height: 20px; /* Exact height to match WhatsApp button size */
+    width: 120px; /* Exact width to match WhatsApp button size */
+    height: 30px; /* Exact height to match WhatsApp button size */
     border-radius: 20px; /* Rounded corners to match WhatsApp button */
 }
 
