@@ -26,24 +26,18 @@ header h1 {
     border-radius: 5px;
     margin: 0;
 }
+
 /* Adjusting the main PayPal button in the header */
 .paypal-button-container {
     position: absolute;
-    bottom: 80px; /* Adjust to position the PayPal button above the WhatsApp link */
+    bottom: 100px; /* Adjust to position the PayPal button above the WhatsApp link */
     right: 40px;
-    background-color: #2E8B57; /* Matching the WhatsApp button color */
-    padding: 15px 25px; /* Same padding as the WhatsApp link for uniform size */
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 18px; /* Matching font size with WhatsApp link */
-    text-align: center;
-    cursor: pointer;
 }
 
 .paypal-button-container input[type="image"] {
-    width: 24px; /* Adjust the image size to match the WhatsApp icon */
     height: auto;
-    vertical-align: middle;
+    padding: 15px 25px; /* Same padding as the WhatsApp link for uniform size */
+    border-radius: 20px;
 }
 
 .contact-us {
@@ -65,11 +59,11 @@ header h1 {
     height: 24px;
     margin-right: 10px;
 }
-.contact-us:hover, .paypal-button-container:hover {
+.contact-us:hover {
     background-color: #1ebea5; /* Darker green on hover */
 }
 
-.contact-us-inline, .links form {
+.contact-us-inline {
     display: inline-flex;
     align-items: center;
     background-color: #2E8B57; /* WhatsApp green color */
@@ -82,13 +76,13 @@ header h1 {
     margin-left: 10px;
 }
 
-.contact-us-inline img, .links form input[type="image"] {
+.contact-us-inline img {
     width: 20px;
     height: 20px;
     margin-right: 5px;
 }
 
-.contact-us-inline:hover, .links form:hover {
+.contact-us-inline:hover {
     background-color: #1ebea5; /* Darker green on hover */
 }
 
@@ -98,7 +92,6 @@ nav {
     background-color: #005f7f;
     padding: 10px;
 }
-
 nav a {
     color: white;
     margin: 0 15px;
@@ -165,4 +158,5 @@ footer {
     text-decoration: none;
     font-size: 20px;
 }
+
 
