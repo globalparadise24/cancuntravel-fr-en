@@ -32,12 +32,15 @@ header h1 {
     position: absolute;
     bottom: 100px; /* Adjust to position the PayPal button above the WhatsApp link */
     right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .paypal-button-container input[type="image"] {
-    height: auto;
-    padding: 15px 25px; /* Same padding as the WhatsApp link for uniform size */
-    border-radius: 20px;
+    width: 64px; /* Exact width to match WhatsApp button size */
+    height: 64px; /* Exact height to match WhatsApp button size */
+    border-radius: 20px; /* Rounded corners to match WhatsApp button */
 }
 
 .contact-us {
@@ -55,8 +58,8 @@ header h1 {
     align-items: center;
 }
 .contact-us img {
-    width: 24px;
-    height: 24px;
+    width: 24px; /* Icon size */
+    height: 24px; /* Icon size */
     margin-right: 10px;
 }
 .contact-us:hover {
@@ -158,5 +161,6 @@ footer {
     text-decoration: none;
     font-size: 20px;
 }
+
 
 
