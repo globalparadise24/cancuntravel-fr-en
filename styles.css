@@ -71,7 +71,7 @@ header h1 {
     align-items: center;
     background-color: #2E8B57; /* WhatsApp green color */
     color: white;
-    padding: 8px 12px; /* Reduced padding */
+    padding: 6px 10px; /* Reduced padding */
     border-radius: 8px; /* Reduced border radius */
     text-decoration: none;
     font-weight: bold;
