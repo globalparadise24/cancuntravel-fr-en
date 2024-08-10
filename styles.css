@@ -75,8 +75,10 @@ header h1 {
     border-radius: 6px; /* Reduced border radius */
     text-decoration: none;
     font-weight: bold;
-    font-size: 10px; /* Smaller font size */
-    margin-left: 5px; /* Adjusted margin */
+    font-size: 12px; /* Smaller font size */
+    margin-left: 10px; /* Adjusted margin */
+    cursor: pointer;
+    margin-top: -12px;
 }
 
 .contact-us-inline img {
