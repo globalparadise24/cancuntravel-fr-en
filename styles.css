@@ -49,10 +49,7 @@ header h1 {
     justify-content: center;
     background-color: initial;
 }
-element.style {
-    height: 100px;
-    width: 160px;
-}
+
 .contact-us {
     position: absolute;
     bottom: 10px;
