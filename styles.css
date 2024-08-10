@@ -144,6 +144,11 @@ section {
     gap: 10px;
 }
 
+/* Add margin-top to lower the last image */
+#trusted-taxi-service img {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
 footer {
     background-color: #005f7f;
     color: white;
