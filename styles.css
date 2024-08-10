@@ -38,9 +38,9 @@ header h1 {
 }
 
 .paypal-button-container input[type="image"] {
-    width: 160px; /* Exact width to match WhatsApp button size */
-    height: 60px; /* Exact height to match WhatsApp button size */
-    border-radius: 20px; /* Rounded corners to match WhatsApp button */
+    width: 132px; /* Exact width to match WhatsApp button size */
+    height: 90px; /* Exact height to match WhatsApp button size */
+    border-radius: 10px; /* Rounded corners to match WhatsApp button */
 }
 
 .contact-us {
