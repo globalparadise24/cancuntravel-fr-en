@@ -71,18 +71,18 @@ header h1 {
     align-items: center;
     background-color: #2E8B57; /* WhatsApp green color */
     color: white;
-    padding: 8px 12px; /* Reduced padding */
-    border-radius: 8px; /* Reduced border radius */
+    padding: 5px 8px; /* Reduced padding */
+    border-radius: 6px; /* Reduced border radius */
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px; /* Smaller font size */
+    font-size: 10px; /* Smaller font size */
     margin-left: 5px; /* Adjusted margin */
 }
 
 .contact-us-inline img {
-    width: 16px; /* Smaller icon size */
-    height: 16px; /* Smaller icon size */
-    margin-right: 5px;
+    width: 14px; /* Smaller icon size */
+    height: 14px; /* Smaller icon size */
+    margin-right: 3px;
 }
 
 .contact-us-inline:hover {
