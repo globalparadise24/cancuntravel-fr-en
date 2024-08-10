@@ -38,8 +38,8 @@ header h1 {
 }
 
 .paypal-button-container input[type="image"] {
-    width: 8px; /* Exact width to match WhatsApp button size */
-    height: 12px; /* Exact height to match WhatsApp button size */
+    width: 5px; /* Exact width to match WhatsApp button size */
+    height: 8px; /* Exact height to match WhatsApp button size */
     border-radius: 10px; /* Rounded corners to match WhatsApp button */
 }
 
