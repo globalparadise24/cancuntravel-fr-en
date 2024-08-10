@@ -82,9 +82,11 @@ header h1 {
 }
 
 .contact-us-inline img {
-    width: 14px; /* Smaller icon size */
-    height: 14px; /* Smaller icon size */
-    margin-right: 3px;
+    width: 16px; /* Smaller icon size */
+    height: 16px; /* Smaller icon size */
+    margin-right: 5px;
+    margin-right: 5px;
+    margin-block: 0px;
 }
 
 .contact-us-inline:hover {
@@ -146,9 +148,11 @@ section {
     gap: 10px;
 }
 
-/* Add margin-top to lower the last image */
 #trusted-taxi-service img {
-    margin-top: 18px; /* Adjust the value as needed */
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 footer {
